@@ -7,7 +7,7 @@ const api = axios.create({
   baseURL: "http://localhost:8000",
 });
 
-function App() {
+function App( {
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState({
     id: "",
