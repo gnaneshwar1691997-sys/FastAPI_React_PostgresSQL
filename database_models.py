@@ -1,4 +1,4 @@
-# Import required SQLAlchemy componentss
+# Import required SQLAlchemy components
 from sqlalchemy import Column, Integer, String, Float  # Data types and column definitions
 from sqlalchemy.ext.declarative import declarative_base  # Base class for all ORM models
 
