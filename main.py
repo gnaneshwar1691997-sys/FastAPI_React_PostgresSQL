@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-# Dependency function to get a database session for each request.
+# Dependency function to get a database session for each request
 def get_db():
     db = SessionLocal()  # Create a new database session
     try:
